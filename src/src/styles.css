@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+body,html{
+    height: calc(100%-6em);
+}
+body{
+    background: crimson;
+    color:#fff;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    align-items: center;
+    font-size: 3em;
+    padding: 1.5em;
+}

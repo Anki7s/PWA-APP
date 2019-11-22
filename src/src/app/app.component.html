@@ -1,0 +1,13 @@
+
+<p *ngIf = "update">
+  There is an update.
+</p>
+<h1>   Quote's </h1>
+<div *ngIf = "quote">
+  <p>{{quote?.content}}</p>
+  <p style="font-size:1em; text-align:right">
+    By: {{quote?.author}}
+  </p>
+</div>
+
+<router-outlet></router-outlet>
